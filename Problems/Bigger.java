@@ -13,6 +13,7 @@ public class Bigger {
         Scanner sc = new Scanner(System.in);
         int num1 = sc.nextInt();
         int num2 = sc.nextInt();
+        sc.close();
         int result = greater(num1, num2);
         System.out.println("Bigger number is : "+result);
     }
